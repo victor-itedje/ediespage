@@ -264,6 +264,7 @@ margin: auto;
     width: 273px;
     height: 96px;
     margin-left: 34px;
+    margin-bottom: 100px;
 }
 
 .ipsum {
@@ -403,7 +404,7 @@ margin: auto;
 
 #rem {
     margin-left: 34px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 #thirdgetstarted {
@@ -669,6 +670,7 @@ margin: auto;
     height: 162px;
     margin-left: 170px;
     margin-top: 23px;
+    margin-bottom: 200px;
 }
 
 #team {
