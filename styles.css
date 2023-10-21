@@ -921,6 +921,8 @@ margin: auto;
     body {
         width: 375px;
         height: 6164px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 
@@ -1093,7 +1095,8 @@ line-height: normal;
         width: 267px;
         height: 72px;
         margin-left: 45px;
-        margin-top: 120px;
+        margin-top: 100px;
+        margin-bottom: -150px;
     }
 
     #design {
@@ -1134,6 +1137,7 @@ line-height: normal;
         width: 341.172px;
 height: 30.218px;
 flex-shrink: 0;
+margin-top: -20px;
     }
 
     #home {
@@ -1170,6 +1174,7 @@ line-height: normal;
         width: 326.722px;
 height: 23.457px;
 flex-shrink: 0;
+margin-top: -20px;
     }
 
     #app {
@@ -1211,6 +1216,7 @@ line-height: normal;
         width: 239.539px;
 height: 30.417px;
 flex-shrink: 0;
+margin-top: -20px;
     }
 
     #books {
@@ -1246,6 +1252,8 @@ line-height: normal;
         width: 342.369px;
         height: 29.771px;
         flex-shrink: 0;
+        margin-bottom: -20px;
+        margin-top: -20px;
     }
 
     #juiceproducthomepage {
@@ -1259,6 +1267,7 @@ line-height: normal;
 
     #seemorecon {
         margin-left: 10px;
+        margin-top: 35.64px;
     }
 
     #arrow {
@@ -1267,16 +1276,20 @@ line-height: normal;
 
     #meet {
         margin-left: 10px;
+        margin-top: 80px;
     }
 
 
     #chilled {
         margin-left: 10px;
+        margin-bottom: 1px;
+        margin-top: 10px;
     }
 
 
     #dolorcon {
         margin-left: 10px;
+        margin-top: -20px;
     }
 
     #firstperson {
@@ -1350,6 +1363,7 @@ line-height: normal;
         width: 425px;
 height: 693px;
 flex-shrink: 0;
+margin-top: 103px;
     }
 
     #footer {
