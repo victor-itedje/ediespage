@@ -269,7 +269,7 @@ margin: auto;
 
 .ipsum {
     color: var(--Gray-2, #4F4F4F);
-font-family: Poppins;
+/* font-family: Poppins; */
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
