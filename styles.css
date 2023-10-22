@@ -1,23 +1,26 @@
 
 
 body {
-    width: 1440px;
-    height: 5835px;
+    /* width: 1440px;
+    height: 5835px; */
     background: #FFF;
     border-radius: 8px;
-    /* margin: 0; */
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     box-sizing: border-box;
-    display: flex;
+    margin: 0;
+    /* display: flex; */
     /* justify-content: center; */
-    margin-right: auto;
-    margin-left: auto;
+    /* margin-right: auto;
+    margin-left: auto; */
 }
+
 
 .head {
     width: 70px;
     height: 53px;
    margin-top: 42px;
+   margin-left: 52px;
 }
 
 .edie {
@@ -32,20 +35,21 @@ body {
 
 #services {
     display: flex;
-    position: relative;
+    margin-left: 850px;
+
     width: 703px;
     height: 36px;
-    left: 755px;
-    right: 56px;
-    top: -51px;
+    /* left: 755px;
+    right: 56px; */
+    margin-top: -51px;
 }
 
 #menucon {
     width: 24px;
     height: 24px;
     margin-left: 1450px;
-    display: none;
-    margin-top: -40px;
+     display: none;
+    margin-top: -20px;
 }
 
 #menu {
@@ -103,7 +107,7 @@ margin: 44px auto 0 auto;
     width: 1332px;
     height: 354px;
     margin-bottom: 42px;
-    margin-left: 50px;
+    margin-left: 120px;
 }
 
 #first {
@@ -215,6 +219,7 @@ input[type="submit"] {
     font-size: 18px;
     padding-left: 10px;
 }
+
 
 #editcon {
     width: 341px;
@@ -432,7 +437,7 @@ margin: auto;
 #dashboard-onboardcon {
     display: flex;
     flex-direction: row;
-    margin-left: 165px;
+    margin-left: 230px;
     gap: 31px;
 }
 
@@ -529,7 +534,7 @@ line-height: normal;
 #book-juicecon {
     display: flex;
     flex-direction: row;
-    margin-left: 165px;
+    margin-left: 230px;
     gap: 31px;
 }
 
@@ -830,21 +835,39 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
-
-#lastrectangle {
-    width: 1580px;
+ 
+/* #lastrectangle {
+    width: 100%;
+max-width: 1580px;
 height: 385px;
 flex-shrink: 0;
 background: #100E1D;
+position: relative;
+right: 40px;
 margin-top: 323px;
-position:absolute; 
-left: 0; 
-right:0;
-}
+ margin-left: 0; 
+margin-right:0; */
+
+
+    footer {
+        text-align: center;
+  /* padding: 3px; */
+  background: #100E1D;
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  height: 385px;
+  margin-top: 203px;
+      }
+
 
 #ndservices {
-    margin-left: 168px;
+    margin-left: -1300px;
     margin-top: 46px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .ndservice {
@@ -879,7 +902,7 @@ right:0;
 }
 
 #twitter {
-    margin-left: 575px;
+    margin-left: -415px;
     margin-top: -22px;
 }
 
@@ -944,7 +967,8 @@ line-height: normal;
 
     #menucon {
         display: flex;
-        margin-left: 350px;
+        margin-left: 335px;
+        margin-top: -35px;
     }
 
     #services {
@@ -1356,18 +1380,22 @@ line-height: normal;
     }
 
     #ndservices {
-        margin-left: 41px;
+        margin-left: -250px;
     }
 
-    #lastrectangle {
-        width: 425px;
+    footer {
+        height: 693px;
+    }
+
+    /* #lastrectangle {
+    
 height: 693px;
 flex-shrink: 0;
 margin-top: 103px;
-    }
+    } */
 
     #footer {
-        margin-bottom: -100px;
+        margin-top: 10px;
     }
 
     #ndhead {
@@ -1385,13 +1413,13 @@ margin-top: 103px;
     }
 
     #twitter {
-        margin-left: 112px;
+        margin-left: -120px;
     }
 
     #ndcontact {
         margin-left: 41px;
         margin-top: 64px;
-        margin-bottom: 150px;
+        margin-bottom: 110px;
     }
 }
 
